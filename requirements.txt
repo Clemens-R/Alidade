@@ -1,0 +1,2 @@
+# Full reproduction environment. PyTorch and torchvision are installed separately.
+-r requirements-training.txt

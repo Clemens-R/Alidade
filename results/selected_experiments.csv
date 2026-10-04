@@ -1,0 +1,11 @@
+configuration,parameters,median_km,mean_km,evaluation
+MobileNetV3-Small direct coordinates,1320000,1203.3,1328.1,fold_1
+Learned retrieval,4860000,631.9,936.5,five_fold_mean
+MobileNetV3-Large 3D regression,4520000,425.7,639.2,fold_1
+Soft geocells plus coherent decode,4620000,188.8,611.6,fold_1
+Scratch one expert,4760000,146.0,527.7,fold_1
+ImageNet MobileNetV3 one expert,3450000,83.1,336.6,fold_1
+ImageNet MobileNetV4 four experts,3320000,69.3,413.3,fold_1
+MobileNetV3 twelve country experts,4200000,60.8,329.2,fold_1
+Final 1536 cells plus adaptive KD,4964188,55.6,323.3,fold_1
+Frozen final model,4964188,58.554,333.777,five_fold_mean

@@ -1,0 +1,4 @@
+Student training time: 1.358162 hours (81.490 minutes; 4889.382 seconds)
+Measured with time.perf_counter and CUDA synchronization.
+Includes data loading, augmentation, forward/backward passes, and optimizer steps.
+Excludes downloads, teacher inference, preprocessing, checkpoint writes, and holdout inference.

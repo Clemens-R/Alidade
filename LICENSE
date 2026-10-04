@@ -1,0 +1,13 @@
+Copyright (c) 2026 Clemens Roßkopf. All rights reserved.
+
+This repository is publicly viewable as a research artifact. No permission is
+granted to copy, modify, distribute, sublicense, or republish this code, model
+checkpoint, or associated artifacts except where applicable law permits.
+
+Third-party software, pretrained models, and datasets retain their respective
+licences and terms. This notice does not grant rights to any challenge dataset
+or third-party asset.
+
+The author may release original source code under a separate open-source licence
+in the future. Such a licence would not automatically cover the model checkpoint,
+dataset, teacher models, pretrained weights, or other third-party material.

@@ -1,0 +1,7 @@
+-r requirements-inference.txt
+scikit-learn==1.9.0
+scipy==1.18.1
+huggingface_hub[hf_xet]==1.29.0
+open_clip_torch==3.3.0
+transformers==4.57.6
+diff-plonk==0.4

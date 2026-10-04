@@ -1,0 +1,34 @@
+{
+  "measurement": "student training loop wall-clock time",
+  "clock": "time.perf_counter with torch.cuda.synchronize at every epoch boundary",
+  "includes": [
+    "training image loading",
+    "augmentation",
+    "forward pass",
+    "loss",
+    "backward pass",
+    "optimizer update"
+  ],
+  "excludes": [
+    "dependency/model downloads",
+    "teacher inference",
+    "teacher-target construction",
+    "model initialization",
+    "geocell fitting",
+    "checkpoint serialization",
+    "holdout inference"
+  ],
+  "training_seconds": 4889.382113176034,
+  "training_minutes": 81.48970188626724,
+  "training_hours": 1.358161698104454,
+  "epochs": 72,
+  "training_images": 11758,
+  "image_presentations": 846576,
+  "batch_size": 24,
+  "resume_segments": 0,
+  "started_at_utc": "2026-09-06T17:56:55.733591+00:00",
+  "finished_at_utc": "2026-09-06T19:19:10.541478+00:00",
+  "gpu": "NVIDIA RTX 4000 Ada Generation",
+  "torch": "2.13.0+cu130",
+  "cuda": "13.0"
+}

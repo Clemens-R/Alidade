@@ -1,0 +1,10 @@
+component,parameters,percent_of_total
+backbone,2971952,59.86783739858362
+router,972,0.019580241521876287
+convolutional_expert_adapters,755760,15.224242111700846
+shared_neck,246528,4.966129405252178
+shared_geocell_head,394752,7.951995371649906
+expert_geocell_deltas,516096,10.396383053985868
+country_head,3084,0.06212496384101489
+coordinate_residual_head,9252,0.18637489152304465
+training_only_distillation_projections,65792,1.325332561941651

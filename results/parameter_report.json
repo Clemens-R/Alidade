@@ -1,0 +1,18 @@
+{
+  "verification": "PASS",
+  "reconstructed_model_parameters": 4964188,
+  "checkpoint_parameter_tensor_elements": 4964188,
+  "checkpoint_declared_parameters": 4964188,
+  "model_state_dict_values": 4988634,
+  "geocell_center_values": 4608,
+  "complete_inference_state_values": 4993242,
+  "parameter_limit": 5000000,
+  "headroom": 35812,
+  "predictions_rows": 2400,
+  "predictions_columns": [
+    "filename",
+    "pred_lat",
+    "pred_lng"
+  ],
+  "component_sum": 4964188
+}

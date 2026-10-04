@@ -1,0 +1,17 @@
+FINAL ARTIFACT VERIFICATION: PASS
+Parameters: 4,964,188 / 5,000,000
+Parameter headroom: 35,812
+Complete inference state: 4,993,242 values (6,758 below the limit)
+Count independently agrees across reconstructed model, named checkpoint tensors, checkpoint declaration, and component sum.
+predictions.csv: 2,400 unique rows with exact required header.
+
+                             component  parameters  percent_of_total
+                              backbone     2971952         59.867837
+                                router         972          0.019580
+         convolutional_expert_adapters      755760         15.224242
+                           shared_neck      246528          4.966129
+                   shared_geocell_head      394752          7.951995
+                 expert_geocell_deltas      516096         10.396383
+                          country_head        3084          0.062125
+              coordinate_residual_head        9252          0.186375
+training_only_distillation_projections       65792          1.325333
